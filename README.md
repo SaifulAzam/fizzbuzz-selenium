@@ -7,7 +7,7 @@ Hwo to run
 2. Import MY Project
 3. convert to maven 
 4. Open "src/test/java/com.test" then "VerifyNflScoresPageTitle.java"
-5. Right click on Menthod "verifyNflScoresPageTitle()" and run As JUnit Test
+5. Right click on Method "verifyNflScoresPageTitle()" and run As JUnit Test
 
 Test Steps
 =================
