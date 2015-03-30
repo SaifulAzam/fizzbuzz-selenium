@@ -1,5 +1,23 @@
 [![Build Status](https://travis-ci.org/SaifulAzam/fizzbuzz-selenium.svg?branch=master)](https://travis-ci.org/SaifulAzam/fizzbuzz-selenium)
 
+Hwo to run
+=================
+
+1. Open Eclips IDE
+2. Import MY Project
+3. convert to maven 
+4. Open "src/test/java/com.test" then "VerifyNflScoresPageTitle.java"
+5. Right click on Menthod "verifyNflScoresPageTitle()" and run As JUnit Test
+
+Test Steps
+=================
+1. Open Friefox browser
+2. Naviget to espn.go.com
+3. Click on "NFL"
+4. Click on "Scores" And Verify the Page Title "NFL Scoreboard" 
+
+And my test was "Failed"
+
 fizzbuzz-selenium
 =================
 
