@@ -1,12 +1,16 @@
 language: java
 jdk:
 - oraclejdk7
-script:
-- sh -e run-travis-ci-tests.sh
-addons:
-sauce_connect: true
+env:
 global:
 - secure:MVW0VJpRe93GmDElKOUcOUa/obhSzIbv5nqQtI9EZCiLwuavlBKNP0mLFgmkGph8btumJi/gaIeG/EVtIZyi2vYUoIM0if6iXI3+Id9FA3WlJHg2/zzX6LG3VGvR6nvbAHInLig1EeIMjUeu3wKZz4ZWmxHRuGMqKmoDzCfX6+A=
-cache:
-directories:
-- $HOME/.m2
+ matrix:
+#- BROWSER="internet explorer" VERSION=8
+#- BROWSER="internet explorer" VERSION=9
+#- BROWSER="internet explorer" VERSION=10
+#- BROWSER="internet explorer" VERSION=11
+- BROWSER="firefox" VERSION=31
+#- BROWSER="chrome" VERSION=37
+after_script: gradle uploadArchives
+addons:
+sauce_connect: true
