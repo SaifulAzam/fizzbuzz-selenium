@@ -20,8 +20,8 @@ public class Config {
 	
 	@Before
 	public void setUp() {
-		driver = new HtmlUnitDriver();
-		//driver = new FirefoxDriver();
+		//driver = new HtmlUnitDriver();
+		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.navigate().to(Constant.URL);
