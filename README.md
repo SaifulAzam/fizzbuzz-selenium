@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SaifulAzam/fizzbuzz-selenium.svg?branch=master)](https://travis-ci.org/SaifulAzam/fizzbuzz-selenium)
+
 fizzbuzz-selenium
 =================
 
