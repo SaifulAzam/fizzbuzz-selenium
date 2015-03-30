@@ -16,7 +16,7 @@ Test Steps
 3. Click on "NFL"
 4. Click on "Scores" And Verify the Page Title "NFL Scoreboard" 
 
-And my test was "Failed"
+And test Result "Failed"
 
 fizzbuzz-selenium
 =================
