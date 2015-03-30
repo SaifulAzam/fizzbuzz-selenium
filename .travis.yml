@@ -1,6 +1,3 @@
-branches:
-only:
-- master
 language: java
 jdk:
 - oraclejdk7
@@ -10,3 +7,6 @@ addons:
 sauce_connect: true
 global:
 - secure:MVW0VJpRe93GmDElKOUcOUa/obhSzIbv5nqQtI9EZCiLwuavlBKNP0mLFgmkGph8btumJi/gaIeG/EVtIZyi2vYUoIM0if6iXI3+Id9FA3WlJHg2/zzX6LG3VGvR6nvbAHInLig1EeIMjUeu3wKZz4ZWmxHRuGMqKmoDzCfX6+A=
+cache:
+directories:
+- $HOME/.m2
