@@ -4,7 +4,7 @@ jdk:
 env:
 global:
 - secure:MVW0VJpRe93GmDElKOUcOUa/obhSzIbv5nqQtI9EZCiLwuavlBKNP0mLFgmkGph8btumJi/gaIeG/EVtIZyi2vYUoIM0if6iXI3+Id9FA3WlJHg2/zzX6LG3VGvR6nvbAHInLig1EeIMjUeu3wKZz4ZWmxHRuGMqKmoDzCfX6+A=
- matrix:
+matrix:
 #- BROWSER="internet explorer" VERSION=8
 #- BROWSER="internet explorer" VERSION=9
 #- BROWSER="internet explorer" VERSION=10
